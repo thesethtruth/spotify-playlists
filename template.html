@@ -1,0 +1,39 @@
+<style>
+
+  p, h1, h4 {
+      font-family: {{ font }};
+      color: {{ font_color }};
+  }
+
+  h1 {
+      font-size: {{ size_title }};
+      padding: 0px;
+      margin-top: .5rem;
+  }
+
+  h4 {
+      font-size: {{size_supstitle }}
+      padding: 0px;
+      margin: 0px;
+
+  }
+
+  div {
+    background-color: {{ color }};
+    width: {{ size }};
+    height: {{ size }};
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  html {
+    display: table;
+    margin: auto;
+  }
+</style>
+
+<div>
+  <h4>{{ suptitle }}</h4>
+  <h1>{{ title }}</h1>
+</div>
